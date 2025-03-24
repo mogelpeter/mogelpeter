@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <style>
+    @keyframes fall {
+      from {
+        transform: translateY(-10px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(210px);
+        opacity: 0.8;
+      }
+    }
+    
+    @keyframes glow {
+      0%, 100% {
+        text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+      }
+      50% {
+        text-shadow: 0 0 20px #0f0, 0 0 30px #0f0;
+      }
+    }
+    
+    .matrix-bg {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+    }
+    
+    .digit {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #0f0;
+      animation: fall linear infinite, glow 3s ease-in-out infinite;
+    }
+    
+    .title {
+      font-family: 'Courier New', monospace;
+      font-size: 40px;
+      fill: #0f0;
+      animation: glow 3s ease-in-out infinite;
+      text-anchor: middle;
+    }
+    
+    .subtitle {
+      font-family: 'Courier New', monospace;
+      font-size: 20px;
+      fill: #0f0;
+      animation: glow 3s ease-in-out infinite;
+      text-anchor: middle;
+    }
+  </style>
+  
+  <rect class="matrix-bg" width="800" height="200" />
+  
+  <!-- Matrix digits -->
+  <text x="40" y="10" class="digit" style="animation-duration: 10s;">1</text>
+  <text x="140" y="30" class="digit" style="animation-duration: 8s;">0</text>
+  <text x="210" y="15" class="digit" style="animation-duration: 9s;">1</text>
+  <text x="280" y="25" class="digit" style="animation-duration: 7s;">0</text>
+  <text x="350" y="10" class="digit" style="animation-duration: 11s;">1</text>
+  <text x="420" y="20" class="digit" style="animation-duration: 12s;">0</text>
+  <text x="490" y="30" class="digit" style="animation-duration: 9s;">1</text>
+  <text x="560" y="15" class="digit" style="animation-duration: 10s;">0</text>
+  <text x="630" y="25" class="digit" style="animation-duration: 8s;">1</text>
+  <text x="700" y="10" class="digit" style="animation-duration: 12s;">0</text>
+  
+  <!-- Weitere Matrix-Digits -->
+  <text x="30" y="70" class="digit" style="animation-duration: 9s;">M</text>
+  <text x="100" y="60" class="digit" style="animation-duration: 11s;">O</text>
+  <text x="170" y="80" class="digit" style="animation-duration: 10s;">G</text>
+  <text x="240" y="65" class="digit" style="animation-duration: 12s;">E</text>
+  <text x="310" y="75" class="digit" style="animation-duration: 8s;">L</text>
+  <text x="380" y="85" class="digit" style="animation-duration: 13s;">P</text>
+  <text x="450" y="70" class="digit" style="animation-duration: 9s;">E</text>
+  <text x="520" y="60" class="digit" style="animation-duration: 10s;">T</text>
+  <text x="590" y="80" class="digit" style="animation-duration: 11s;">E</text>
+  <text x="660" y="75" class="digit" style="animation-duration: 9s;">R</text>
+  
+  <!-- Matrix-Text in der Mitte -->
+  <text x="400" y="100" class="title">MOGELPETER</text>
+  <text x="400" y="140" class="subtitle">Matrix Coding Environment</text>
+</svg>
