@@ -2,7 +2,7 @@
 
 
  <div align="center">
-  <img src="matrix-header.svg" width="100%" alt="Matrix Header">
+  <img src="matrix-header-mogelpeter.svg" width="100%" alt="Matrix Header">
 </div>
 
 
