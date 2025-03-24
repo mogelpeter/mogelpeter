@@ -1,12 +1,6 @@
 <h1 align="center">Hi 👋, I'm lyx aka mogelpeter</h1>
 
 
- <div align="center">
-  <img src="matrix-header-mogelpeter.svg" width="100%" alt="Matrix Header">
-</div>
-
-
-
 <table border="0" align="center">
 <tr border="0">
 <td width="50%" align="center">
