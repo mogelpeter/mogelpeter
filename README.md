@@ -52,5 +52,5 @@
 </div>
 
 <div align="center">
-  <img src="matrix-footer.svg" width="100%" alt="Matrix Footer">
+  <img src="matrix-footer-mogelpeter.svg" width="100%" alt="Matrix Footer">
 </div>
